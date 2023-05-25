@@ -1,0 +1,66 @@
+@font-face {
+    font-family: 'DOS Font';
+    src: url('../fonts/ModernDOS9x14.ttf') format('truetype');
+}
+body{
+    font-family: 'DOS Font', Courier, monospace;
+}
+
+.expires {
+    background: url('../images/background_screen.jpg');
+    color: #41f341;
+    height: 100vh;
+
+    .logo-image {
+        width: 400px;
+    }
+
+    .nft-img {
+        width: 50vh;
+        float: right;
+    }
+    
+    .right-div {
+        // padding-right: 50px;
+    }
+    
+    .expires-div {
+        margin-top: -20vh;
+    }
+    
+    .connect-wallet {
+        width: 220px;
+        height: 50px;
+        border: 2px solid #07fa08;
+    }
+    .connect-wallet:hover {
+        cursor: pointer;
+    }
+    .nft-minus, .nft-number, .nft-plus {
+        border: 2px solid #07fa08;
+    }
+    .nft-minus, .nft-plus {
+        width: 50px;
+        height: 50px;
+        margin-left: 3px;
+        margin-right: 3px;
+        font-size: 35px;
+        /* padding-top: 0px; */
+        // padding-bottom: 5px;
+    }
+    
+    .nft-minus:hover, .nft-plus:hover {
+        cursor: pointer;
+    }
+    
+    .nft-number {
+        width: 220px;
+        height: 50px;
+    }
+    
+    .nft-rest {
+        width: 310px;
+        height: 50px;
+        border: 2px solid #07fa08;
+    }
+}
