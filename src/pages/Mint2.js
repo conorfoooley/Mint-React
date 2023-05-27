@@ -6,7 +6,7 @@ import mayorImg from '../style/images/skyscraper_logo.png';
 import { Row } from 'react-bootstrap';
 const Mint2 = () => {
     const navigate = useNavigate();
-    const [countdownDate, setCountdownDate] = useState(new Date('2023-05-25T11:31:00').getTime());
+    const [countdownDate, setCountdownDate] = useState(new Date('2023-05-27T02:26:00').getTime());
     const [timeLeft, setTimeLeft] = useState({
         days: 0,
         hours: 0,
@@ -21,7 +21,6 @@ const Mint2 = () => {
           if(distance < 0){
             clearInterval(intervalId);
             navigate('/mint2a');
-            // return;
           }
           setTimeLeft({
             days: Math.floor(distance / (1000 * 60 * 60 * 24)),

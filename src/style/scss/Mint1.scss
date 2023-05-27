@@ -1,5 +1,7 @@
 body{
     overflow: hidden;
+    // display: flex;
+    // flex-wrap: wrap;
 }
 @font-face {
     font-family: 'DOS Font';
@@ -31,5 +33,10 @@ body{
     }
     50% {
         color: #53fb54;
+    }
+}
+@media (max-width: 768px) {
+    .mint1-screen {
+        padding: 20px;
     }
 }

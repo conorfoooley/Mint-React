@@ -50,3 +50,8 @@ body {
         color: #53fb54;
     }
 }
+@media (max-width: 768px) {
+    .mint-time-div {
+        width: 250px !important;
+    }
+}

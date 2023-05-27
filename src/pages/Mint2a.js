@@ -12,7 +12,6 @@ const Mint2a = () => {
         function handleKeyDown(event) {
         
         if (event.keyCode === 13) {
-            console.log('Enter key pressed');
             if(typedLetters==='skyscraper'){
                 navigate('/mint3');
             }
