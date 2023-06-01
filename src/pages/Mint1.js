@@ -14,7 +14,7 @@ const Mint1 = () => {
           setTimeout(() => {
             setDisplayText(text.slice(0, index + 1));
             setIndex(index + 1);
-          }, 70);
+          }, 20);
         }
         else{
           setDisableKeyEvent(false);

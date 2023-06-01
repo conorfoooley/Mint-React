@@ -2,11 +2,11 @@ import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../style/scss/Mint2.scss';
-import mayorImg from '../style/images/skyscraper_logo.png';
+import mayorImg from '../style/images/skyscraper_logo.webp';
 import { Row } from 'react-bootstrap';
 const Mint2 = () => {
     const navigate = useNavigate();
-    const [countdownDate, setCountdownDate] = useState(new Date('2023-05-27T02:26:00').getTime());
+    const [countdownDate, setCountdownDate] = useState(new Date().getTime() + 1000 * 120);
     const [timeLeft, setTimeLeft] = useState({
         days: 0,
         hours: 0,

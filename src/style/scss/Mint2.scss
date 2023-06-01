@@ -10,6 +10,9 @@ body {
 
 .mayor {
     background: url('../images/background_screen.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
     color: #41f341;
     height: 100vh;
 

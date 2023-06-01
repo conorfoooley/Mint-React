@@ -8,6 +8,9 @@ body{
 
 .expires {
     background: url('../images/background_screen.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
     color: #41f341;
     height: 100vh;
     overflow-y: auto;
@@ -26,11 +29,14 @@ body{
     }
     
     .right-div {
-        // padding-right: 50px;
+        padding-top: 40px;
     }
-    
-    .expires-div {
-        margin-top: -20vh;
+    .right-div-mob {
+        padding-top: 15px;
+    }
+    .expires-text {
+        margin-top: -10vh;
+        height: 150px;
     }
     button{
         background-color: transparent !important;
@@ -109,5 +115,29 @@ body{
         width: 290px;
         height: 40px;
         border: 2px solid #07fa08;
+    }
+}
+@media (max-width: 768px) {
+    .expires-text {
+        height: 210px !important;
+        margin-top: -10vh !important;
+    }
+}
+@media (max-width: 334px) {
+    .expires-text {
+        height: 240px !important;
+        margin-top: -10vh !important;
+    }
+}
+@media (max-width: 320px) {
+    .expires-text {
+        height: 270px !important;
+        margin-top: -10vh !important;
+    }
+}
+@media (max-width: 263px) {
+    .expires-text {
+        height: 310px !important;
+        margin-top: -10vh !important;
     }
 }

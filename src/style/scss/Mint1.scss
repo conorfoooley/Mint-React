@@ -9,6 +9,9 @@ body{
 }
 .mint1-screen {
     background: url('../images/background_screen.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
     color: #53fb54;
     font-family: 'DOS Font', Courier, monospace;
     width: 100%;
