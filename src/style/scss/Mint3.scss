@@ -35,7 +35,7 @@ body{
         padding-top: 15px;
     }
     .expires-text {
-        margin-top: -10vh;
+        margin-top: -130px;
         height: 150px;
     }
     button{
@@ -117,27 +117,45 @@ body{
         border: 2px solid #07fa08;
     }
 }
-@media (max-width: 768px) {
+@media (min-width: 905px) and (max-width:1200px) {
+    .expires-text {
+        height: 100px !important;
+    
+    }
+}
+@media (max-width: 900px) {
+    .expires-text {
+        height: 120px !important;
+    
+    }
+}
+@media (max-width: 560px) {
+    .expires-text {
+        height: 170px !important;
+    
+    }
+}
+@media (max-width: 479px) {
     .expires-text {
         height: 210px !important;
-        margin-top: -10vh !important;
+        margin-top: -110px !important;
     }
 }
 @media (max-width: 334px) {
     .expires-text {
         height: 240px !important;
-        margin-top: -10vh !important;
+        margin-top: -110px !important;
     }
 }
 @media (max-width: 320px) {
     .expires-text {
         height: 270px !important;
-        margin-top: -10vh !important;
+        margin-top: -100px !important;
     }
 }
 @media (max-width: 263px) {
     .expires-text {
         height: 310px !important;
-        margin-top: -10vh !important;
+        margin-top: -80px !important;
     }
 }
